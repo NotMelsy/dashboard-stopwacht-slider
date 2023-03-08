@@ -11,16 +11,18 @@
 <body>
     <article class="card"></article>
     <article class="card"></article>
-    <article class="card">
+    <article class="card card--stopwatch">
     <div>
-       <span id="js--minutestimer">0</span>
-       : 
-        <span id="js--secondstimer">0</span>
+        <span class="timertext" id="js--minutestimer">0</span>
+        <span class="timertext">:</span>
+        <span class="timertext" id="js--secondstimer">0</span>
 
     </div>
-    <button id="js--start">start</button>
-    <button id="js--stop">stop</button>
-    <button>reset</button>
+        <section class="buttonwrapper">
+            <button class="button button--start" id="js--start">start</button>
+            <button class="button button--stop" id="js--stop">stop</button>
+            <button class="button button--reset" id="js--reset">reset</button>
+        </section>
     </article>
 </body>
 </html>
