@@ -8,9 +8,15 @@
     <link rel="stylesheet" href="style.css">
     <script src="java.js" defer></script>
 </head>
-<body>
-    <article class="card"></article>
-    <article class="card"></article>
+<body id="js--body">
+    <article class="card card--slider">
+        <h2 id="js--rangeValue">0</h2>
+        <input id="js--slider" type="range" min="1" max="4" step="1">
+    </article>
+    <article class="card card--igor">
+        <img id="js--img" src="" alt="">
+        <p id="js--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum accusantium debitis inventore blanditiis explicabo numquam repudiandae hic fuga eos, minima odit, beatae quisquam delectus itaque tempore at, sed fugit deserunt.</p>
+    </article>
     <article class="card card--stopwatch">
     <div>
         <span class="timertext" id="js--minutestimer">0</span>
