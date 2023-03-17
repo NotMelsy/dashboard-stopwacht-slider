@@ -54,7 +54,7 @@ slider.oninput = function () {
 
 let data = {
     "text": "Eén van de beste studio albums van Tyler, the Creator met pingu die Tyler vervangt op de album cover.",
-    "img": "/img/ezgif.com-gif-maker.webp"
+    "img": "/dashboard-stopwacht-slider/img/ezgif.com-gif-maker.webp"
 };
 
 const text = document.getElementById("js--text");
